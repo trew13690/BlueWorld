@@ -1,6 +1,7 @@
 package com.trewdev.blueworld.graphics.states;
 
 import com.trewdev.blueworld.game.Game;
+import com.trewdev.blueworld.game.Handler;
 
 import java.awt.*;
 
@@ -9,8 +10,8 @@ import java.awt.*;
  */
 public class MenuState extends State{
 
-    public  MenuState(Game game){
-        super(game);
+    public  MenuState(Handler handler){
+        super(handler);
 
 
     }

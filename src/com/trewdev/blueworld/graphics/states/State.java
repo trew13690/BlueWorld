@@ -1,6 +1,7 @@
 package com.trewdev.blueworld.graphics.states;
 
 import com.trewdev.blueworld.game.Game;
+import com.trewdev.blueworld.game.Handler;
 
 import java.awt.*;
 
@@ -25,9 +26,9 @@ public abstract class State {
     //CLASS
 
 
-    protected Game game;
-    public  State(Game game){
-        this.game = game;
+    protected Handler handler;
+    public  State(Handler handler){
+        this.handler = handler;
     }
     public abstract void tick();
     public abstract  void render(Graphics g);

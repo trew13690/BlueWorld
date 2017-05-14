@@ -17,7 +17,7 @@ public class Utils {
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
             String line;
-            while((line = br.readLine()) != null){
+            while ((line = br.readLine()) != null) {
 
                 builder.append(line + "\n");
 
@@ -28,16 +28,16 @@ public class Utils {
             e.printStackTrace();
         }
 
-        return  builder.toString();
+        return builder.toString();
     }
 
 
-    public static int parseInt(String number){
-        try{
+    public static int parseInt(String number) {
+        try {
 
             return Integer.parseInt(number);
 
-        }catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             e.printStackTrace();
             return 0;
 

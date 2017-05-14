@@ -50,14 +50,14 @@ public class Game implements Runnable {
         display = new Display(title, width, height);
         display.getFrame().addKeyListener(keyManager);
         Assets.init();
-
+        handler = new Handler(this);
         gameCamera = new GameCamera(this,0,0);
 
 
-        gameState = new GameState(this);
-        menuState = new MenuState(this);
-        inGameMenuState = new InGameMenuState(this);
-        characterCreationState = new ChararcterCreationState(this);
+        gameState = new GameState(handler);
+        menuState = new MenuState(handler);
+        inGameMenuState = new InGameMenuState(handler);
+        characterCreationState = new ChararcterCreationState(handler);
 
         State.setState(gameState);
 
@@ -161,6 +161,7 @@ public class Game implements Runnable {
 
     }
 
+    private  Handler handler;
     public int getWidth(){
         return width;
     }

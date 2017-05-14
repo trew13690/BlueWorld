@@ -23,7 +23,7 @@ public class Assets {
         SpriteSheet sheet2 = new SpriteSheet(ImageLoader.loadImage("/textures/tileMap.jpg"));
         grassTile = sheet2.crop(0,0, 32, 32);
         tallGrassTile = sheet2.crop(96, 32, 32, 32);
-        rockTile = sheet2.crop(224,32,32,32);
+        rockTile = sheet2.crop(32,192,32,32);
 
 
 

@@ -1,6 +1,7 @@
 package com.trewdev.blueworld.entities;
 
 import com.trewdev.blueworld.game.Game;
+import com.trewdev.blueworld.game.Handler;
 
 import java.awt.*;
 
@@ -11,8 +12,8 @@ public abstract class Entity {
 
     protected float x, y;
     protected int width, height;
-    protected Game game;
-
+    protected Handler handler;
+    protected Rectangle bounds;
     public int getWidth() {
         return width;
     }
@@ -47,13 +48,14 @@ public abstract class Entity {
         this.x = x;
     }
 
-    public  Entity(Game game,float x, float y, int width, int height){
+    public  Entity(Handler handler, float x, float y, int width, int height){
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
-        this.game = game;
+        this.handler = handler;
 
+        bounds = new Rectangle(0,0,width, height);
 
     }
 
