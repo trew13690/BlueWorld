@@ -10,7 +10,7 @@ public class Launcher {
 
     public static void main(String[] args) {
 
-       Game game = new Game("Blue World", 1200, 1200);
+       Game game = new Game("Blue World", 500, 500);
        game.start();
 
 

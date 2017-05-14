@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0531bed4-095f-4fd1-bf29-7cf4f3e76564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/Entity.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/Entity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Player.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Player.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Animation.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Player.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Creature.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Creature.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/game/Game.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/game/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/ChararcterCreationState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/ChararcterCreationState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/GameState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/GameState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/InGameMenuState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/InGameMenuState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/MenuState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/MenuState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/State.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/State.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/game/Launcher.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/game/Launcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/GameCamera.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/GameCamera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/worlds/World.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/worlds/World.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/worlds/world1.txt" afterPath="$PROJECT_DIR$/out/production/BlueWorld/worlds/world1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Launcher.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Launcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +29,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java">
+      <file leaf-file-name="dude.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/textures/dude.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2532">
-              <caret line="59" column="68" lean-forward="false" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
+            <state relative-caret-position="671">
+              <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,22 +48,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/ImageLoader.java">
+      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Animation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Creature.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1073">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <folding>
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,81 +64,11 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="World.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/GameState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameCamera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="world1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/worlds/world1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -184,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameState.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/ImageLoader.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/SpriteSheet.java" />
-        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/State.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/Creature.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/input/KeyManager.java" />
@@ -195,23 +129,25 @@
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/tiles/DirtTile.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/Utils.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/tiles/RockTile.java" />
-        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/tiles/Tile.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/State.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/ChararcterCreationState.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/InGameMenuState.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/MenuState.java" />
-        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/Entity.java" />
-        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/GameState.java" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Utils.java" />
-        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java" />
         <option value="$PROJECT_DIR$/res/worlds/world1.txt" />
         <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Animation.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java" />
+        <option value="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java" />
       </list>
     </option>
   </component>
@@ -273,28 +209,6 @@
               <option name="myItemId" value="blueworld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="worlds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SampleGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SampleGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blueworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -315,58 +229,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SampleGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SampleGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blueworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SampleGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SampleGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blueworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="states" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1105,7 +967,7 @@
       <workItem from="1494463818763" duration="11584000" />
       <workItem from="1494551125166" duration="8514000" />
       <workItem from="1494632058193" duration="354000" />
-      <workItem from="1494632452278" duration="7046000" />
+      <workItem from="1494632452278" duration="9776000" />
     </task>
     <task id="LOCAL-00001" summary="Added Simple Collision">
       <created>1494801248900</created>
@@ -1125,7 +987,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41614000" />
+    <option name="totallyTimeSpent" value="44344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1522" height="1959" extended-state="0" />
@@ -1217,14 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/worlds/world1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/SpriteSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1405,14 +1259,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/tiles/DirtTile.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/game/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/textures/sampleImage.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1505,11 +1351,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/textures/dude.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1565,16 +1406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2532">
-          <caret line="59" column="68" lean-forward="false" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/GameState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -1585,32 +1416,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="797">
+          <caret line="117" column="70" lean-forward="false" selection-start-line="117" selection-start-column="70" selection-end-line="117" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Display.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="986">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1623,32 +1444,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/GameCamera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="671">
+          <caret line="52" column="93" lean-forward="false" selection-start-line="52" selection-start-column="93" selection-end-line="52" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Display.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+        <state relative-caret-position="435">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java">
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/game/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/textures/dude.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
