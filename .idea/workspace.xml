@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0531bed4-095f-4fd1-bf29-7cf4f3e76564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Handler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Creature.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/Assets.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/Assets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/tiles/Tile.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/tiles/Tile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/worlds/World.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/worlds/World.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/Entity.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/Entity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Player.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/entities/creature/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/game/Game.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/game/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/ChararcterCreationState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/ChararcterCreationState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/GameState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/GameState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/InGameMenuState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/InGameMenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/MenuState.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/MenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/State.class" afterPath="$PROJECT_DIR$/out/production/BlueWorld/com/trewdev/blueworld/graphics/states/State.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/worlds/world1.txt" afterPath="$PROJECT_DIR$/res/worlds/world1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/Entity.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/Entity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Utils.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/game/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/Assets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/ChararcterCreationState.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/ChararcterCreationState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/GameState.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/GameState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/InGameMenuState.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/InGameMenuState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/MenuState.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/MenuState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/State.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/states/State.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/tiles/Tile.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/graphics/tiles/Tile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java" afterPath="$PROJECT_DIR$/src/com/trewdev/blueworld/worlds/World.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlueWorld/worlds/world1.txt" afterPath="$PROJECT_DIR$/out/production/BlueWorld/worlds/world1.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +49,8 @@
       <file leaf-file-name="Creature.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="99" column="26" lean-forward="false" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+            <state relative-caret-position="536">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,6 +153,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="trew &lt;trew13690@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -1112,15 +1105,31 @@
       <workItem from="1494463818763" duration="11584000" />
       <workItem from="1494551125166" duration="8514000" />
       <workItem from="1494632058193" duration="354000" />
-      <workItem from="1494632452278" duration="6879000" />
+      <workItem from="1494632452278" duration="7046000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Simple Collision">
+      <created>1494801248900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494801248900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Simple Collision">
+      <created>1494801310187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494801310187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41447000" />
+    <option name="totallyTimeSpent" value="41614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1522" height="1959" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1131,8 +1140,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3329377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1189,6 +1198,13 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added Simple Collision" />
+    <MESSAGE value="Added Simple Collision - Forgot some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Simple Collision - Forgot some files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1629,8 +1645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/trewdev/blueworld/entities/creature/Creature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="99" column="26" lean-forward="false" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+        <state relative-caret-position="536">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
