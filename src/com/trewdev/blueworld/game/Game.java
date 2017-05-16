@@ -5,6 +5,7 @@ import com.trewdev.blueworld.graphics.Display;
 import com.trewdev.blueworld.graphics.GameCamera;
 import com.trewdev.blueworld.graphics.states.*;
 import com.trewdev.blueworld.input.KeyManager;
+import com.trewdev.blueworld.input.MouseManger;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -26,14 +27,15 @@ public class Game implements Runnable {
     //States
 
 
-    private State gameState;
-    private State menuState;
+    public State gameState;
+    public State menuState;
     private State inGameMenuState;
     private State characterCreationState;
 
 
     private KeyManager keyManager;
     private GameCamera gameCamera;
+    private MouseManger mouseManger;
 
     public Game(String title, int width, int height) {
 
@@ -41,6 +43,7 @@ public class Game implements Runnable {
         this.height = height;
         this.title = title;
         this.keyManager = new KeyManager();
+        this.mouseManger = new MouseManger();
 
 
     }
@@ -49,6 +52,11 @@ public class Game implements Runnable {
 
         display = new Display(title, width, height);
         display.getFrame().addKeyListener(keyManager);
+        display.getFrame().addMouseListener(mouseManger);
+        display.getFrame().addMouseMotionListener(mouseManger);
+        display.getCanvas().addMouseListener(mouseManger);
+        display.getCanvas().addMouseMotionListener(mouseManger);
+
         Assets.init();
         handler = new Handler(this);
         gameCamera = new GameCamera(handler,0,0);
@@ -59,7 +67,7 @@ public class Game implements Runnable {
         inGameMenuState = new InGameMenuState(handler);
         characterCreationState = new ChararcterCreationState(handler);
 
-        State.setState(gameState);
+        State.setState(menuState);
 
 
     }
@@ -143,6 +151,8 @@ public class Game implements Runnable {
     public KeyManager getKeyManager() {
         return keyManager;
     }
+
+    public  MouseManger getMouseManger(){return  mouseManger;}
 
     public synchronized void start() {
         if (running)

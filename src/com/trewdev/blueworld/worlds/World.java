@@ -1,9 +1,14 @@
 package com.trewdev.blueworld.worlds;
 
+import com.trewdev.blueworld.entities.Entity;
+import com.trewdev.blueworld.entities.EntityManager;
+import com.trewdev.blueworld.entities.creature.Player;
+import com.trewdev.blueworld.entities.statics.Tree;
 import com.trewdev.blueworld.game.Game;
 import com.trewdev.blueworld.game.Handler;
 import com.trewdev.blueworld.game.Utils;
 import com.trewdev.blueworld.graphics.tiles.Tile;
+import com.trewdev.blueworld.items.ItemManager;
 
 import java.awt.*;
 
@@ -12,18 +17,37 @@ import java.awt.*;
  */
 public class World {
 
+
     private Handler handler;
     private int width, height;
     private int spawnX, spawnY;
     private int[][] tiles;
+    private ItemManager itemManager;
 
+    private EntityManager entityManager;
 
     public World(Handler handler, String path) {
         this.handler = handler;
+        entityManager = new EntityManager(handler, new Player(handler, 100, 100));
+        itemManager = new ItemManager(handler);
         loadWorld(path);
+
+        entityManager.getPlayer().setX(spawnX);
+        entityManager.getPlayer().setyMove(spawnY);
+        entityManager.addEntity(new Tree(handler, 100, 250));
+        entityManager.addEntity(new Tree(handler, 300, 250));
+        entityManager.addEntity(new Tree(handler, 400, 400));
 
     }
 
+
+    public EntityManager getEntityManager() {
+        return entityManager;
+    }
+
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
 
     private void loadWorld(String path) {
 
@@ -53,7 +77,8 @@ public class World {
 
 
     public void tick() {
-
+        entityManager.tick();
+        itemManager.tick();
 
     }
 
@@ -69,6 +94,22 @@ public class World {
         return t;
 
 
+    }
+
+    public Handler getHandler() {
+        return handler;
+    }
+
+    public void setHandler(Handler handler) {
+        this.handler = handler;
+    }
+
+    public ItemManager getItemManager() {
+        return itemManager;
+    }
+
+    public void setItemManager(ItemManager itemManager) {
+        this.itemManager = itemManager;
     }
 
     public void render(Graphics g) {
@@ -89,14 +130,18 @@ public class World {
 
             }
         }
+        itemManager.render(g);
+
+        entityManager.render(g);
+
     }
 
-    public  int getWidth(){
+    public int getWidth() {
 
-        return  width;
+        return width;
     }
 
-    public  int getHeight(){
+    public int getHeight() {
         return height;
     }
 }

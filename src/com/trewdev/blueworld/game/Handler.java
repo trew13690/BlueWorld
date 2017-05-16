@@ -2,36 +2,42 @@ package com.trewdev.blueworld.game;
 
 import com.trewdev.blueworld.graphics.GameCamera;
 import com.trewdev.blueworld.input.KeyManager;
+import com.trewdev.blueworld.input.MouseManger;
 import com.trewdev.blueworld.worlds.World;
+import org.omg.CORBA.PUBLIC_MEMBER;
 
 /**
  * Created by trew1 on 5/14/2017.
  */
 public class Handler {
 
-    private  Game game;
+    private Game game;
     private World world;
 
     public Game getGame() {
         return game;
     }
 
-    public GameCamera getGameCamera(){
+    public GameCamera getGameCamera() {
         return game.getGameCamera();
     }
 
-    public KeyManager getKeyManager(){
-        return  game.getKeyManager();
+    public KeyManager getKeyManager() {
+        return game.getKeyManager();
     }
 
+    public MouseManger getMouseManger() {
+        return game.getMouseManger();
+    }
 
-    public int getWidth(){
+    public int getWidth() {
         return game.getWidth();
     }
 
-    public  int getHeight(){
-        return  game.getHeight();
+    public int getHeight() {
+        return game.getHeight();
     }
+
     public void setGame(Game game) {
         this.game = game;
     }
@@ -44,7 +50,7 @@ public class Handler {
         this.world = world;
     }
 
-    public  Handler(Game game){
+    public Handler(Game game) {
 
 
         this.game = game;
