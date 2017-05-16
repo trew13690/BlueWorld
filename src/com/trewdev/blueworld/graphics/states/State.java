@@ -1,6 +1,5 @@
 package com.trewdev.blueworld.graphics.states;
 
-import com.trewdev.blueworld.game.Game;
 import com.trewdev.blueworld.game.Handler;
 
 import java.awt.*;
