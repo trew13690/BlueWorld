@@ -16,7 +16,7 @@ public class Assets {
 
     public static BufferedImage greenTree;
 
-
+    public static BufferedImage SpaceTile;
     public static BufferedImage[] red_character_standing;
     public static BufferedImage red_character_static;
     public static BufferedImage[] red_character_right,
@@ -99,5 +99,15 @@ public class Assets {
 
         SpriteSheet inventorySheet = new SpriteSheet(ImageLoader.loadImage("/textures/inventory_Sample.jpg"));
         inventory = inventorySheet.crop(110, 124, 332, 455);
+
+
+
+        //Other Tiles
+
+        SpriteSheet sampleTileSheet = new SpriteSheet(ImageLoader.loadImage("/textures/sampleSpaceTile.jpg"));
+        SpaceTile = sampleTileSheet.crop(0,0, 32,32);
+
+
+
     }
 }

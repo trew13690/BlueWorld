@@ -7,6 +7,8 @@ import java.awt.*;
 
 /**
  * Created by trew1 on 5/11/2017.
+ *
+ *
  */
 public abstract class Entity {
 

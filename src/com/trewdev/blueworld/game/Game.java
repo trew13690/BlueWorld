@@ -3,7 +3,7 @@ package com.trewdev.blueworld.game;
 import com.trewdev.blueworld.graphics.Assets;
 import com.trewdev.blueworld.graphics.Display;
 import com.trewdev.blueworld.graphics.GameCamera;
-import com.trewdev.blueworld.graphics.states.*;
+import com.trewdev.blueworld.mechanics.states.*;
 import com.trewdev.blueworld.input.KeyManager;
 import com.trewdev.blueworld.input.MouseManger;
 
@@ -11,12 +11,12 @@ import java.awt.*;
 import java.awt.image.BufferStrategy;
 
 /**
- * Created by trew1 on 5/9/2017.
+ * Created by trew on 5/9/2017.
  */
 public class Game implements Runnable {
 
     private Display display;
-    private int width, height;
+    public static Toolkit tk = Toolkit.getDefaultToolkit();
     public String title;
     private boolean running;
     private Thread thread;
@@ -30,17 +30,15 @@ public class Game implements Runnable {
     public State gameState;
     public State menuState;
     private State inGameMenuState;
-    private State characterCreationState;
 
 
     private KeyManager keyManager;
     private GameCamera gameCamera;
     private MouseManger mouseManger;
 
-    public Game(String title, int width, int height) {
+    public Game(String title) {
 
-        this.width = width;
-        this.height = height;
+
         this.title = title;
         this.keyManager = new KeyManager();
         this.mouseManger = new MouseManger();
@@ -48,9 +46,11 @@ public class Game implements Runnable {
 
     }
 
+
+
     private void init() {
 
-        display = new Display(title, width, height);
+        display = new Display(title);
         display.getFrame().addKeyListener(keyManager);
         display.getFrame().addMouseListener(mouseManger);
         display.getFrame().addMouseMotionListener(mouseManger);
@@ -59,13 +59,13 @@ public class Game implements Runnable {
 
         Assets.init();
         handler = new Handler(this);
-        gameCamera = new GameCamera(handler,0,0);
+        gameCamera = new GameCamera(handler, 0, 0);
 
 
         gameState = new GameState(handler);
         menuState = new MenuState(handler);
         inGameMenuState = new InGameMenuState(handler);
-        characterCreationState = new ChararcterCreationState(handler);
+      
 
         State.setState(menuState);
 
@@ -92,7 +92,7 @@ public class Game implements Runnable {
         }
 
         g = bs.getDrawGraphics();
-        g.clearRect(0, 0, width, height);
+        g.clearRect(0, 0, (int) tk.getScreenSize().getWidth(), (int) tk.getScreenSize().getHeight());
 
 
         if (State.getState() != null) {
@@ -152,7 +152,9 @@ public class Game implements Runnable {
         return keyManager;
     }
 
-    public  MouseManger getMouseManger(){return  mouseManger;}
+    public MouseManger getMouseManger() {
+        return mouseManger;
+    }
 
     public synchronized void start() {
         if (running)
@@ -164,19 +166,21 @@ public class Game implements Runnable {
 
     }
 
-    public GameCamera getGameCamera(){
+    public GameCamera getGameCamera() {
 
         return gameCamera;
 
 
     }
 
-    private  Handler handler;
-    public int getWidth(){
-        return width;
+    private Handler handler;
+
+    public int getWidth() {
+        return (int) tk.getScreenSize().getWidth();
     }
-    public  int getHeight(){
-        return height;
+
+    public int getHeight() {
+        return (int) tk.getScreenSize().getHeight();
     }
 
     public synchronized void stop() {

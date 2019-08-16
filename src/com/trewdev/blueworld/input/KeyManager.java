@@ -4,13 +4,13 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 /**
- * Created by trew1 on 5/11/2017.
+ * Created by trew on 5/11/2017.
  */
 public class KeyManager implements KeyListener {
     private boolean[] keys, justPressed, cantPress;
     public boolean up, down, left, right;
     public boolean aUp, aDown, aLeft, aRight;
-
+    public boolean delKey;
     public KeyManager() {
 
         keys = new boolean[256];
@@ -47,6 +47,7 @@ public class KeyManager implements KeyListener {
         aDown = keys[KeyEvent.VK_DOWN];
         aLeft = keys[KeyEvent.VK_LEFT];
         aRight = keys[KeyEvent.VK_RIGHT];
+        delKey = keys[KeyEvent.VK_ESCAPE];
 
     }
     public boolean keyJustPressed(int keyCode){

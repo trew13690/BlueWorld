@@ -3,8 +3,7 @@ package com.trewdev.blueworld.game;
 import com.trewdev.blueworld.graphics.GameCamera;
 import com.trewdev.blueworld.input.KeyManager;
 import com.trewdev.blueworld.input.MouseManger;
-import com.trewdev.blueworld.worlds.World;
-import org.omg.CORBA.PUBLIC_MEMBER;
+import com.trewdev.blueworld.worldgen.World;
 
 /**
  * Created by trew1 on 5/14/2017.

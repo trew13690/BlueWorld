@@ -1,7 +1,7 @@
 package com.trewdev.blueworld.entities.creature;
 
 
-import com.trewdev.blueworld.UI.Inventory;
+import com.trewdev.blueworld.ui.Inventory;
 import com.trewdev.blueworld.entities.Entity;
 import com.trewdev.blueworld.game.Handler;
 import com.trewdev.blueworld.graphics.Animation;
@@ -135,7 +135,8 @@ public class Player extends Creature {
             xMove = -speed;
         if(handler.getKeyManager().right)
             xMove = speed;
-
+        if(handler.getKeyManager().delKey)
+            System.exit(0);
 
     }
 

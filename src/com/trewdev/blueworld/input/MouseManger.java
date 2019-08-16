@@ -1,6 +1,6 @@
 package com.trewdev.blueworld.input;
 
-import com.trewdev.blueworld.UI.UIManager;
+import com.trewdev.blueworld.ui.UIManager;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;

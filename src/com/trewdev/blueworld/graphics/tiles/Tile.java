@@ -9,9 +9,9 @@ import java.awt.image.BufferedImage;
 public class Tile {
 
     public static Tile[] tiles = new Tile[256];
-    public static Tile grassTile = new GrassTile(0);
+    public static Tile grassTile = new GrassTile(3);
     public static Tile rockTile = new RockTile(1);
-    
+    public static Tile spaceTile = new SpaceTile(0);
 
 
 

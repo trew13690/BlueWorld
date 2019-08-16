@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by trew1 on 5/7/2017.
+ * Created by trew on 5/7/2017.
  */
 public class Display {
 
@@ -23,12 +23,12 @@ public class Display {
     private String title;
     private int width, height;
 
-    public Display(String title, int width, int height) {
+    public Display(String title) {
 
-
+        Toolkit tk = Toolkit.getDefaultToolkit();
         this.title = title;
-        this.width = width;
-        this.height = height;
+        this.width = (int) tk.getScreenSize().getWidth();
+        this.height = (int) tk.getScreenSize().getHeight();
 
 
         createDisplay();
@@ -40,18 +40,25 @@ public class Display {
     private void createDisplay() {
 
         frame = new JFrame(title);
-        frame.setSize(width, height);
+        frame.setSize(200,400);
+        frame.setUndecorated(true);
+       
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+        frame.setAlwaysOnTop(true);
         frame.setResizable(false);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
 
+
+
+
+
+
         canvas = new Canvas();
         canvas.setPreferredSize(new Dimension(width, height));
-        canvas.setMaximumSize(new Dimension(width, height));
-        canvas.setMinimumSize(new Dimension(width, height));
+        canvas.setMaximumSize(new Dimension(500, 600));
+        canvas.setMinimumSize(new Dimension(300, 200));
         canvas.setFocusable(false);
 
         frame.add(canvas);
